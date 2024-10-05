@@ -1,0 +1,154 @@
+.black-background {
+  height: 100dvh;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  /* background-color: black; */
+  background-image: linear-gradient(to bottom, black ,rgb(63, 61, 61), black)
+}
+.logo {
+  height: 100px;
+  width: 180px;
+}
+
+#language {
+  background: transparent;
+  color: white;
+  width: 90px;
+  border: none;
+}
+.language{
+  background: transparent;
+  color: white;
+  width: 90px;
+  border: none;
+}
+  
+
+.language option{
+  background-color: white !important;
+  color: black  !important;
+}
+#language:focus-within {
+  border: none;
+}
+#language option {
+  background-color: black;
+}
+#language option:hover {
+  background-color: black;
+}
+
+.form-control {
+  background: transparent !important;
+  border: 0.7px solid grey !important;
+  color: white !important;
+}
+::placeholder {
+  color: rgb(165, 157, 157) !important;
+}
+.background-image {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-650-80.jpg.webp");
+  height: 100dvh;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -2;
+}
+
+
+div.section-divider{
+  margin:100px auto;
+  
+  background-color: rgb(146, 20, 20);
+  color: red;
+  width: 80%;
+  height:3px;
+  z-index: 3;
+}
+.number{
+  position: absolute;
+  bottom: 0px;
+  font-size: 100px;
+  left: -20px;
+color: white;
+bottom: -20px;
+z-index: 2;
+}
+.card{
+  overflow:hidden;
+  
+}
+.card:hover img{
+  scale: 1.1;
+  transition-duration: 1.2s;
+}
+.card img{
+  height: 270px;
+  transition-duration: 1s;
+}
+/* joinreason */
+#joinreason .card{
+  background-color: rgb(29,23,46) !important;
+  color: white !important;
+  height: 300px !important;
+  position: relative;
+}
+#joinreason .bi{
+  font-size: 50px;
+  color: rgb(202, 16, 47);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.accordion-button{
+  height: 100px;
+  font-size: 30px !important;
+}
+.accordion-body{
+  font-size: 30px !important;
+}
+.accordion-button,.accordion-body{
+  background-color: black !important;
+  color: white !important;
+}
+/* .accordion-button :active{
+  background-color: grey !important;
+} */
+.accordion-item{
+  border: 0px !important;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url("https://png.pngtree.com/png-vector/20190214/ourmid/pngtree-vector-plus-icon-png-image_515260.jpg") !important;
+}
+.accordion-button::after{
+  background-image: url("https://png.pngtree.com/png-vector/20190419/ourmid/pngtree-vector-cross-icon-png-image_956622.jpg") !important;
+}
+#email,button[type="submit"]{
+ height: 60px;
+
+
+}
+.registration{
+  margin-top: 150px;
+}
+.list-group-item{
+  font-size: 15px !important;
+  background: transparent !important;
+  color: rgb(172, 165, 165) !important;
+  border: 0px !important;
+  text-decoration: underline !important;
+}
+@media screen  and (max-width: 568px) {
+
+  #language{
+    font-size: 15px;
+    height: 20px;
+    width: 80px;
+  }
+  #language option{
+    font-size: 15px !important;
+  }
+}
